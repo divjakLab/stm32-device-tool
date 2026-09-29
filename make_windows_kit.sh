@@ -7,6 +7,6 @@ cd "$(dirname "$0")"
 mkdir -p output
 KIT="output/STM32DeviceTool-windows-build-kit.zip"
 rm -f "$KIT"
-zip -qr "$KIT" . -x ".venv/*" "build/*" "dist/*" "output/*" "*__pycache__*" \
+zip -qr "$KIT" . -x ".git/*" ".venv/*" "build/*" "dist/*" "output/*" "*__pycache__*" \
     ".pytest_cache/*" "selftest.log" ".DS_Store" "*/.DS_Store"
 echo "Done: $KIT"
