@@ -1,0 +1,6 @@
+# Runtime components. pyOCD pinned to the version validated on hardware.
+pyocd==0.45.1
+pyserial>=3.5
+pyelftools>=0.31
+intelhex>=2.3
+PySide6-Essentials>=6.8

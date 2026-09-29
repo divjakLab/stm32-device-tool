@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build outputs (PyInstaller, installers, kits)
+build/
+dist/
+output/
+selftest.log
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local secrets for signing (never commit)
+*.p12
+*.cer
